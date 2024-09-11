@@ -1,0 +1,175 @@
+header{
+    background-color: rgba(0, 0, 0, 0.89);
+    padding: 15px;
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #fffdfd;
+    color: #0a0a0a;
+    transition: left 0.3s ease-in-out;
+    padding-top: 50px;
+}
+
+.sidebar.open {
+    left: 0;
+    background-color: #0530eedc;
+}
+
+.sidebar-content {
+    padding: 20px;
+    background-color: #0530eedc;
+}
+
+.sidebar-content a {
+  text-decoration: overline;
+    display: block;
+    color: #f0e9e9;
+  
+    padding: 30px 0;
+    
+}
+
+.sidebar-content a:hover {
+    background-color: #037cee;
+}
+
+.menu-icon {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1;
+    background-color: #002fffe1;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+
+}
+
+/* modiffication des images*/
+
+.img{
+    background-color: #042cdd41;
+    height: 400px;
+    width: 400px;
+    right: 100px;
+    text-align: center;
+
+}
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.image-box {
+  background-color: #061dec85;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px; 
+  /* ajout d'espacement entre les images */
+}
+.image-box button {
+  background-color: #1606f7;
+  color: #fdfcfc;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.image-box button:hover {
+  background-color: #f3f4f5c7;
+color: #0a0a0a;
+}
+
+/* footer*/ 
+footer{
+    background-color: #0530eee7;
+    padding: 10px;
+    color: #ddd;
+    text-decoration: overline;
+}
+
+ /* CSS pour la navbar */
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0530eed7;
+    color: #fff;
+    padding:  20px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .navbar-nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar-nav li {
+    margin-right: 20px;
+  }
+
+  .navbar-nav li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /* CSS pour l'espace de recherche */
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .search-container input[type="text"] {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+
+  .search-container button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  body{
+    background-image: url(happy-young-business-colleagues-indoors.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  a{
+    text-decoration: none;
+    color: #ddd;
+  }
+  a:hover{
+    color: #0a0a0a;
+  }

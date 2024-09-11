@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Latéral</title>
+    <style>
+
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: -250px;
+            width: 250px;
+            height: 100%;
+            background-color: #333;
+            color: #fff;
+            transition: left 0.3s ease-in-out;
+            padding-top: 50px;
+        }
+
+        .sidebar.open {
+            left: 0;
+        }
+
+        .sidebar-content {
+            padding: 20px;
+        }
+
+        .sidebar-content a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 0;
+        }
+
+        .sidebar-content a:hover {
+            background-color: #555;
+        }
+
+        .menu-icon {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            font-size: 24px;
+            cursor: pointer;
+            z-index: 1;
+            background-color: #007bff; /* Couleur bleue */
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .img{
+            background-color: #007bff;
+            height: 400px;
+            width: 400px;
+            right: 100px;
+            text-align: center;
+        
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-content">
+            <a href="#">Accueil</a>
+            <a href="#">À propos</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <div class="menu-icon" onclick="toggleSidebar()">
+        &#9776; Menu
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById("sidebar");
+            sidebar.classList.toggle("open");
+        }
+    </script>
+<br><br><br><br>
+    
+<div id="content">
+<div class="content">
+  <div class="leftbox">
+<p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis accusamus, perferendis cupiditate earum quidem odit, reiciendis tenetur ea aut praesentium omnis quos ex iure exercitationem aspernatur. Architecto, maxime impedit!</p>
+
+  </div>
+
+  <div class="rightbox">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas libero provident, in nihil, perferendis necessitatibus blanditiis, nulla quod deleniti est voluptatum vitae. Reprehenderit sint impedit, ipsa temporibus quos enim quidem?
+  </div>
+</div>
+</div>
+
+
+    <a href="page1.html"> page 1</a>
+    <a href="teste.html">teste</a>
+  <style>
+
+    /* CSS pour la navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+    }
+
+    .navbar-brand {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .navbar-nav {
+      display: flex;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar-nav li {
+      margin-right: 20px;
+    }
+
+    .navbar-nav li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    /* CSS pour l'espace de recherche */
+    .search-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .search-container input[type="text"] {
+      padding: 6px 10px;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    .search-container button {
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  </style>
+</head>
+  <nav class="navbar">
+    <div class="navbar-brand">Mon site web</div>
+    <ul class="navbar-nav">
+      <li><a href="#">Accueil</a></li>
+      <li><a href="#">À propos</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="search-container">
+      <input type="text" placeholder="Rechercher...">
+      <button>Rechercher</button>
+    </div>
+  </nav>
+    
+   
+</body>
+</html>
