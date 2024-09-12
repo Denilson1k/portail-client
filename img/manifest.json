@@ -1,0 +1,62 @@
+
+{
+    "name": "Portail Client",
+    "short_name": " PCC",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4CAF50",
+    "orientation": "portrait",
+    "icons": [
+      {
+        "src": "/img/menu.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      
+      },
+      {
+        "src": "/img/favicon.ico",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/icons8-appareil-gps-48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+  
+      {
+        "src": "/img/icons8-applet-48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      }
+    ],
+    "screenshots": [
+      {
+        "src":"/img/dd.avif",
+        "sizes": "626x505",
+        "type": "image/png",
+        "form_factor": "wide"
+      },
+      {
+        "src":"/img/dd.avif",
+        "sizes": "626x505",
+        "type": "image/png",
+        "form_factor": "wide"
+      },
+      {
+        "src":"/img/dd.avif",
+        "sizes": "626x505",
+        "type": "image/png",
+        "form_factor": "wide"
+      },
+      {
+        "src": "/img/jj.jpg",
+        "type": "image/png",
+        "sizes":"900x720"
+        
+  
+      }
+    ]
+  }
+  
